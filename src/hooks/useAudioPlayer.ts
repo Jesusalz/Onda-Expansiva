@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { AudioService } from '../services/audioService';
 
-const STREAM_URL = 'https://az03.streaminghd.net.ar/8064/stream';
+const STREAM_URL = 'https://az03.streaminghd.net.ar/8038/stream';
 
 export function useAudioPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
